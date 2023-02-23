@@ -1,0 +1,9 @@
+print ("Please choose a pizza type [Vegan, Mexican]")
+pizzaType = input()
+print ("Please enter quantity")
+pizzaQty = input()
+print ("your order was")
+print ("Pizza type was" + pizzaType)
+#print pizza type 
+print ("Pizza quantity was" + pizzaQty)
+#print pizza qty
