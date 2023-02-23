@@ -28,12 +28,12 @@ while pizzaType not in pizzaTypelist:
 #Choose from options only - gotta make into loop or something 
 
 while True:
-    pQuan = input("How many pizzas u want? ")
+    pizzaQuantity = input("How many pizzas u want? ")
 
     try:
-        pQuan = int(pQuan)
+        pizzaQuantity = int(pizzaQuantity)
 
-        if pQuan <0:
+        if pizzaQuantity <0:
             print("give NUMBERS")
             continue
 
@@ -42,6 +42,6 @@ while True:
     except ValueError:
         print("NOT A NUMBER")
         
-print("you want to order", pQuan, "pizzas")
+print("you want to order", pizzaQuantity, "pizzas")
 
 #FUCKMANN
