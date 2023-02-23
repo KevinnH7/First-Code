@@ -45,4 +45,3 @@ while True:
 print("you want to order", pQuan, "pizzas")
 
 #FUCKMANN
-print("Hello world")
